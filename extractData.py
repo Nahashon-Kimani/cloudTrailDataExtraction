@@ -5,8 +5,8 @@ def lambda_handler(event, context):
     s3 = boto3.client('s3')
     
     # Specify the S3 bucket and object key
-    bucket_name = "aws-account-access-login-bkt"
-    object_key = "events.json"
+    bucket_name = "your-bucket-name"
+    object_key = "file-name.json"
     
     # Read the JSON file from S3
     response = s3.get_object(Bucket=bucket_name, Key=object_key)
