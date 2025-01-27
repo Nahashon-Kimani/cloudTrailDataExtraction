@@ -1,0 +1,14 @@
+{
+    "Events": [
+        {
+            "EventId": "bxxxfffxxxx24de-xxxx-42ae-xxx-ccd1xxxxxxdfdxxxx1",
+            "EventName": "ConsoleLogin",
+            "ReadOnly": "false",
+            "EventTime": "2025-01-24T09:21:15+00:00",
+            "EventSource": "signin.amazonaws.com",
+            "Username": "yourAccountIdentityAccountName",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.09\",}"
+        }
+    ]
+}
